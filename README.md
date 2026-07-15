@@ -1,2 +1,5 @@
 # cubepro123-cybersecurity-journey
-"Saving my progress as i learn the basics."
+# 🐍 Python Security Basics
+This repository is my personal sandbox where I track my progress as a first-year cybersecurity student learning Python from scratch. 
+
+Here, you will find clean, documented scripts focused on fundamental programming concepts, database logic, and security automation.
