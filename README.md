@@ -15,5 +15,9 @@ To keep my portfolio highly organized and professional, I structure my work into
 2. **Resource Management** (Preventing memory leaks and infinite loops)
 3. **Automation** (Building simple security tools, scripts, and parsers)
 
+   ## 📂 Projects & Notes
+- [weapon_armory_checker.py](./weapon_armory_checker.py) — mini project using variables, lists, while/for loops
+- [progress-log.md](./progress-log.md) — my topic-by-topic learning notes
+
 ---
 *"The best way to secure a system is to understand the code that runs it."*
