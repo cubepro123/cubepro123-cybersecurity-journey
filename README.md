@@ -3,8 +3,11 @@
 Hi, I'm Bol👋 
 I'm a first-year Cybersecurity student, and this repository is where I document my journey from basic programming logic to secure script development.
 
-## 📂 What's Inside?
-* **`playground.py`**: My active scratchpad where I test logic, break things, and experiment with Python concepts.
+## 📂 Repository Structure
+To keep my portfolio highly organized and professional, I structure my work into these dedicated files:
+
+* **`cover_page.md` 📔 (My Lab Book Index)**: This is my interactive Table of Contents. It houses my active log of completed security labs, master concepts, and index of finished scripts.
+* **`playground.py` 🧪 (The Practice Scratchpad)**: My active, local workspace where I draft concepts, run quick tests, and break code before finalizing it.
 * **Secure Scripts**: Fully-commented, production-ready scripts showing off secure coding principles like input validation and safe loop handling.
 
 ## ⚙️ Core Focus Areas
