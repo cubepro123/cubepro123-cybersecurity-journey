@@ -17,6 +17,7 @@ To keep my portfolio highly organized and professional, I structure my work into
 
    ## 📂 Projects & Notes
 - [weapon_armory_checker.py](./weapon_armory_checker.py) — mini project using variables, lists, while/for loops
+- [security_gate.py](./security_gate.py) — multi-level security gate pass simulator using lists, loops, and conditional logic
 - [progress-log.md](./progress-log.md) — my topic-by-topic learning notes
 
 ---
