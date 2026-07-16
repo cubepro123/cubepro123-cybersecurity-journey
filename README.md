@@ -1,23 +1,59 @@
-# 🐍 Python Security Basics
+# 🐍 Python Security Basics — Portfolio
 
-Hi, I'm Bol👋 
-I'm a first-year Cybersecurity student, and this repository is where I document my journey from basic programming logic to secure script development.
+Hi — I refactored this repo to make it easier for potential employers to review your work and to show clear, testable examples of the skills you described.
 
-## 📂 Repository Structure
-To keep my portfolio highly organized and professional, I structure my work into these dedicated files:
+Summary of what's in this repo now:
 
-* **`cover_page.md` 📔 (My Lab Book Index)**: This is my interactive Table of Contents. It houses my active log of completed security labs, master concepts, and index of finished scripts.
-* **`playground.py` 🧪 (The Practice Scratchpad)**: My active, local workspace where I draft concepts, run quick tests, and break code before finalizing it.
-* **Secure Scripts**: Fully-commented, production-ready scripts showing off secure coding principles like input validation and safe loop handling.
-
-## ⚙️ Core Focus Areas
-1. **Input Validation & Sanitization** (Preventing logical exploits and unexpected system crashes)
-2. **Resource Management** (Preventing memory leaks and infinite loops)
-3. **Automation** (Building simple security tools, scripts, and parsers)
-
-   ## 📂 Projects & Notes
-- [weapon_armory_checker.py](./weapon_armory_checker.py) — mini project using variables, lists, while/for loops
-- [progress-log.md](./progress-log.md) — my topic-by-topic learning notes
+- A concise overview of your goals and top projects.
+- How to run the example scripts and tests.
+- A short highlight of the skills employers look for.
 
 ---
-*"The best way to secure a system is to understand the code that runs it."*
+
+## Highlights
+
+- Author: cubepro123 (Bol)
+- Primary focus: input validation, safe loops, basic automation and scripting
+- Quick example: weapon_armory_checker.py — now refactored into functions, supports CLI arguments, and has unit tests and CI.
+
+## Run the example
+
+Create a virtual environment, install test deps, and run the example interactively:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python3 weapon_armory_checker.py
+```
+
+Or run non-interactively:
+
+```bash
+python3 weapon_armory_checker.py --choice katana
+```
+
+## Test / CI
+
+Run tests locally:
+
+```bash
+pytest -q
+```
+
+A GitHub Actions workflow runs the test suite on pushes and pull requests.
+
+## What employers will see
+
+- Clean, documented scripts with clear entry points
+- Unit tests that prove basic correctness
+- CI that shows you follow best practices (tests on push)
+
+## Next improvements you might want
+
+- Add a few more small projects in a projects/ directory demonstrating file parsing, simple network scanning (safe, local-only), or secure config handling.
+- Add a short demo video or GIF showing a script run (optional) and a short CV or contact section.
+
+---
+
+If you want I can also split out a projects/ directory and convert other examples in progress-log.md into testable modules.
